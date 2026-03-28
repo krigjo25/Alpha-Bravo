@@ -1,22 +1,37 @@
-#   Martin-Skoda
+# Martins Škoda
+Martins Škoda is a humorous, interactive car adventure where players navigate the open road, upgrade their vehicle, and manage social interactions to reach peak coolness.
 
-#   Purpose of the project
+---
 
-Project is created as an assignment from getAcademy
+## Overview
+In this game, you take control of a Škoda with one primary goal: filling the "Cool-o-meter." As you drive, you will encounter random items to upgrade your car and various characters—ranging from supportive friends to an aggressive grandmother—who will test your social skills and the reputation of your ride.
 
-#   Description
+## Core Features
+* **Dynamic Car Upgrades**: Install parts like spoilers, "Sota ruter," or a "svampebob wrapper" that affect your car's coolness and annoyance factors.
+* **Social Interaction System**: Encounter different personalities (Martin, Terje, Bestemor) and choose the correct way to greet them to gain respect.
+* **Real-time Statistics**: Track your progress through the Cool-o-meter, Annoyed-o-meter, and Speed-o-meter.
+* **Adaptive Gameplay**: Your reputation and car's "coolness" determine how characters react to you during your journey.
 
-Driving a car game -
+## Installation and Technical Setup
+The project is a lightweight web application built with a modular logic structure and a responsive front-end.
 
-On the road random items appears, it can be choosen to add the specsific item into the car or not. Some items increase the cool factor, while other items decrease it. Sometimes a friend or a buddy could appear on the road which has to be greeted before continue the path.
+### Prerequisites
+* A modern web browser (Google Chrome, Mozilla Firefox, or Microsoft Edge).
 
-There has to be atleast three ways to greet your boddy, and your buddy would only accept one of those three ways which would be randomized.
+### Deployment Steps
+1.  **Extract Files**: Download and unzip the project folder.
+2.  **File Structure**: Ensure that `static/js` and `static/sass` folders are intact.
+3.  **Launch**: Open the `index.html` file in your preferred web browser to start the game.
 
-If your cool bar is high, then your buddy would want to greet back in a cool way otherwise the buddy will not greet back in a cool way.
+## Architecture
+The application follows a clean separation of concerns to ensure maintainable code:
+* **Model (modal.js)**: Manages data for car parts, character personalities, and the logic for random encounters.
+* **View (view.js)**: Handles the visual rendering of the road, the vehicle, and dynamic status bars.
+* **Controller (controller.js)**: Orchestrates the game flow, including speed calculations and handling player decisions.
 
-Other elements which can be discovered on the way - Use your imagination, maybe an aggressive grandmother - if you hoos to ignore her it will end with an aggresive bulk on the car and it will decrease the coolness factor.
+## Contributors
+Developed as an assignment for getAcademy by:
+* Yaniss, Amy, Nicolay, and Kristoffer.
 
-Aim to fill up the cool-o-meeter, when its at 100% the game ends with a congratulation ( or maybe a bossfight if x animals is hitted) "
-
-#   Disclaimeer
-The work has been created by Yaniss, Amy, Nicolay, Kristoffer.
+---
+*Remember: Why drive a Škoda? Because sometimes, walking is the only other option.*
